@@ -1,0 +1,31 @@
+:root {
+    --text-color-title: #7c8280;
+    --text-color-list: #d0c7aa;
+}
+
+.footer {
+    background-image: url(../../../assets/Images/bg-footer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color-title {
+    font-size: 18px;
+    color: var(--text-color-title);
+}
+
+.color-list {
+    font-size: 15px;
+    color: var(--text-color-list);
+}
+.credit-title{
+    font-size: 13px;
+}
+.list-hover{
+    cursor: pointer;
+}
+
+.list-hover:hover {
+    color: var(--text-color-title);
+    transition: 0.1s ease-in-out;
+}

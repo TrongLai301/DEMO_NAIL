@@ -1,0 +1,117 @@
+.featured1::before {
+    background: url(../../../../assets/Images/line_11zon-1.png) top center no-repeat;
+    background-size: contain;
+}
+
+.featured2::before {
+    background: url(src/assets/Images/chalk-vert_11zon-1.png) right top repeat-y;
+}
+
+.featured3::before {
+    background: url(src/assets/Images/chalk-vert_11zon-1.png) right top repeat-y;
+}
+
+.frame1::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 23px;
+    right: -10px;
+}
+
+.frame2::before {
+    position: absolute;
+    right: -40px;
+    top: 42%;
+    content: "";
+    width: 31px;
+    height: 21px;
+    opacity: 0;
+}
+
+.frame {
+    position: relative;
+}
+
+.frame3::before {
+    height: 100%;
+    width: 16px;
+    position: absolute;
+    content: "";
+    top: 2px;
+    left: 99%;
+    z-index: 5;
+}
+
+
+.pageImg-edit {
+    width: 140px;
+}
+
+.imgDemoFP {
+    width: 200px;
+    height: 200px;
+}
+
+.imageDemo1 {
+    width: 370px;
+    height: 600px;
+}
+
+.demoFP_div {
+    width: 200px;
+    height: 400px;
+}
+
+.imgDemo-hover {
+    transition: 1s ease;
+}
+
+.imgDemo-hover:hover {
+    transform: scale(1.1);
+}
+
+.demoIMGFB {
+    width: 200px;
+    height: 200px;
+}
+
+.hover-FB {
+    position: relative;
+}
+
+.hover-FB:hover>.FB {
+    opacity: 0.2;
+    visibility: visible;
+}
+
+.hover-FB:hover>.FB_Text {
+    opacity: 1;
+    visibility: visible;
+}
+
+.FB_Text {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.span_FB {
+    font-size: 10px;
+}
+
+.FB {
+    opacity: 0;
+    top: 0;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+
+}

@@ -1,0 +1,11 @@
+:root {
+    --text-not-hover: #242424;
+    --text-focus: #8b8c84;
+}
+
+.navbar-text {
+    color: var(--text-not-hover);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}

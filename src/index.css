@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'EB Garamond', serif;
+  line-height: 1.5;
+
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+
+
+body {
+  background: url(./assets/Images/bg.png) center top repeat-y #f5f3e7;
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  position: unset !important;
+  line-height: 1.6;
+}
+
+.hover-up{
+  transition: transform 0.3s ease;
+}
+
+.hover-up:hover {
+  transform: translateY(-2px);
+}
+.hover-opacity {
+    transition: 0.3s ease;
+}
+
+.hover-opacity:hover {
+    opacity: 0.7;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
